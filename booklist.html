@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Discovery Book</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="booklist.html"><span class="sr-only">(current)</span>Booklist</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1 class="display-4">Welcome to Discovery Book</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-dark btn-lg" href="booklist.html" role="button">Learn more</a>
+      </div>
+
+
+  <!--==========================
+      Booklist Section
+    ============================-->
+  <section id="book">
+    <div class="container wow fadeInUp">
+      <div class="section-header">
+        <h3 class="section-title">Book List</h3>
+        <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+          doloremque</p>
+      </div>
+      <div class="row">
+
+        <div class="col-lg-12">
+          <ul id="book-flters">
+            <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
+            <li data-filter=".filter-app">Fiction</li>
+            <li data-filter=".filter-card">Fantasy</li>
+            <li data-filter=".filter-logo">Horror</li>
+            <li data-filter=".filter-web">Fairytale</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row" id="book-wrapper">
+        <div class="col-lg-3 col-md-6 book-item filter-app">
+          <a href="">
+            <img src="img/bookList/fiction1.jpg" alt="" width="250px" height="250px">
+            <div class="details">
+              <h4>World Whisperer</h4>
+              <span>Fiction Book</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-6 book-item filter-web">
+          <a href="">
+            <img src="img/bookList/fiction2.jpg" alt="" width="250px" height="250px">
+            <div class="details">
+              <h4>The Prophecy</h4>
+              <span>Fiction Book</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-6 book-item filter-app">
+          <a href="">
+            <img src="img/bookList/fiction3.jpg" alt="" width="250px" height="250px">
+            <div class="details">
+              <h4>Blood Axe</h4>
+              <span>Fiction Book</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-6 book-item filter-card">
+          <a href="">
+            <img src="img/bookList/fiction4.jpg" alt="" width="250px" height="250px">
+            <div class="details">
+              <h4>Divergent</h4>
+              <span>Fiction Book</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-6 book-item filter-card">
+          <a href="">
+            <img src="img/bookList/fantasy.jpg" alt="" width="250px" height="250px">
+            <div class="details">
+              <h4>The Past Is Rising</h4>
+              <span>Alored dono par</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-6 book-item filter-web">
+          <a href="">
+            <img src="img/bookList/fantasy2.jpg" alt="" width="250px" height="250px">
+            <div class="details">
+              <h4>Fallen</h4>
+              <span>Alored dono par</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-6 book-item filter-card">
+          <a href="">
+            <img src="img/bookList/fantasy3.jpg" alt=""width="250px" height="250px">
+            <div class="details">
+              <h4>Juniper Unreveling</h4>
+              <span>Alored dono par</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-6 book-item filter-app">
+          <a href="">
+            <img src="img/bookList/fantasy4.jpg" alt="" width="250px" height="250px">
+            <div class="details">
+              <h4>The Empire Of Ashes</h4>
+              <span>Alored dono par</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-6 book-item filter-logo">
+          <a href="">
+            <img src="img/bookList/horror1.jpg" alt="">
+            <div class="details">
+              <h4>Logo 1</h4>
+              <span>Alored dono par</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-6 book-item filter-logo">
+          <a href="">
+            <img src="img/bookList/horror2.jpg" alt="">
+            <div class="details">
+              <h4>Logo 3</h4>
+              <span>Alored dono par</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-6 book-item filter-web">
+          <a href="">
+            <img src="img/bookList/horror3.jpg" alt="">
+            <div class="details">
+              <h4>Web 1</h4>
+              <span>Alored dono par</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-6 book-item filter-logo">
+          <a href="">
+            <img src="img/bookList/horror4.jpg" alt="">
+            <div class="details">
+              <h4>Logo 2</h4>
+              <span>Alored dono par</span>
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="sticky-footer" class="py-4 bg-primary text-white-50">
+    <div class="container text-center">
+      <small>Michael C Forte &copy; 2019</small>
+    </div>
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="filter.js"></script>
+</body>
+
+</html>
